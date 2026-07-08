@@ -1,0 +1,22 @@
+Matrix Addition Python Code-
+  import numpy as np
+  A = np.array([[1, 2], [3, 4]])
+  B = np.array([[5, 6], [7, 8]])
+  print(A + B)
+  print (2 * A)
+
+Matrix Transpose Python Code-
+  A = np.array([[2, 3], [4, 5]])
+  print(A.T)
+
+Matrix Multiplication Python Code-
+  w = np.array([0.4, 0.6, 0.1])
+  R = np.array([0.08, 0.12, 0.7])
+  portfolio_return = w @ R
+  print(portfolio_return)
+
+Matrix Inverse Python Code-
+  Sigma = np.array([[0.04, 0.01], [0.01, 0.09]]) 
+  Sigma_inv = np.linalg.inv(Sigma)
+
+  

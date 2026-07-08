@@ -1,7 +1,7 @@
-Vectorization & Broadcasting used to increase speed.
+```Vectorization & Broadcasting used to increase speed.
 multidimensional indexing is faster than chain indexing.
 
-Vectorization Code Example- { for a array of daily stock prices you want to calculate a simple daily price change.
+Vectorization Code Example- { for a array of daily stock prices you want to calculate a simple daily price change.}
 a. Python Loop: 
   prices = [100.0, 102.5, 101.2, 103.0, 104.5]
   gains = []
@@ -27,5 +27,5 @@ c. 2D x 2D
 
 np.where(condition, x, y) - acts as a vectorized ternary operator.
 np.dot / @ - for calculating portfolio variance.
-np.linalg.inv / np.lingalg.eig - used for mean variance optimization and principal component analysis for yield curve modeling.
+np.linalg.inv / np.lingalg.eig - used for mean variance optimization and principal component analysis for yield curve modeling.```
 
